@@ -18,7 +18,7 @@ import SolidToReactBridgeContext from './SolidToReactBridgeContext'
 import ReactBridgeContainer from '../react/ReactBridgeContainer'
 import useItems from './useItems'
 
-const SolidToReactBridgeProvider = (
+export const SolidToReactBridgeProvider = (
   props,
 ) => {
   const {
